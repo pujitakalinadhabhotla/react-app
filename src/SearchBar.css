@@ -1,0 +1,31 @@
+.input-wrapper {
+    background-color: transparent;
+    width: 45%; /* Make the input span most of the screen */
+    border-radius: 25px; 
+    border: 1px solid rgba(255, 134, 63, 1); 
+    height: 2.75rem; 
+    display: flex;
+    align-items: center;
+    padding: 0 20px; 
+    margin: 20px auto; /* Center the wrapper horizontally */
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    height: 100%; 
+    font-size: 1.25rem;
+    width: 100%; 
+    margin-left: 5px; /* Space between input text and icon (if any) */
+    color: rgba(111, 129, 120, 1); 
+}
+.input-wrapper input::placeholder {
+    color: rgba(111, 129, 120, 0.7); /* Set the desired color for the placeholder */
+    font-style: italic; /* Optional: Style the placeholder text */
+    font-size: 1rem; /* Optional: Adjust the size */
+  }
+
+  input:focus{
+    outline: none;
+  }
+  

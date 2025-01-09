@@ -1,0 +1,11 @@
+.logo-container {
+    position: absolute; /* Ensure it stays in the top-left corner */
+    top: 8%; /* Adjust spacing from the top */
+    left: 5%; /* Adjust spacing from the left */
+  }
+  
+  .logo-image {
+    width: clamp(100px, 10vw, 200px);
+    height: auto; /* Maintain aspect ratio */
+  }
+  

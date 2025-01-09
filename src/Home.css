@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@1,400&display=swap');
+
+/* Home.css */
+.home-container {
+  background-color: rgba(246, 238, 212, 1);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Add flexbox */
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-top-border {
+  background-color:rgba(255, 134, 63, 1) ;
+  height: 2.5vh;
+  width:100%;
+  position: absolute;
+  top: 0;
+}
+
+.logo-text {
+  font-family: 'Instrument Serif', serif;
+  font-style: italic;
+  font-size: clamp(2rem, 4.6vw, 4.6rcap);
+  color: rgba(35, 69, 52, 1);
+  top: 8%;
+  position:relative;
+}
+
+.search-bar-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  margin-top: 320px; 
+  width: 100%;
+}
+
+
