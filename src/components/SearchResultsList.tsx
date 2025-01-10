@@ -1,5 +1,6 @@
 import React from "react";
 import "./SearchResultsList.css";
+import { SearchResult } from "./SearchResult";
 
 // Define the type for the results prop
 type SearchResultsListProps = {
@@ -10,7 +11,7 @@ export const SearchResultsList: React.FC<SearchResultsListProps> = ({ results })
   return (
     <div className="results-list">
       {results.map((result) => (
-        <div key={result.id}>{result.name}</div>
+        <SearchResult result={result} key={result.id} />
       ))}
     </div>
   );
