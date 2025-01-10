@@ -3,7 +3,7 @@ import "./SearchResultsList.css";
 
 // Define the type for the results prop
 type SearchResultsListProps = {
-  results: { id: number; name: string }[]; // Update this type based on your actual data structure
+  results: { id: number; name: string }[];
 };
 
 export const SearchResultsList: React.FC<SearchResultsListProps> = ({ results }) => {
